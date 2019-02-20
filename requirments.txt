@@ -1,4 +1,4 @@
-Django==2.1
+Django==2.0
 coverage==4.3.1
 daphne==1.1.0
 dj-database-url==0.4.1
