@@ -1,1 +1,1 @@
-web: gunicorn BEMS.wsgi
+web: gunicorn BEMS.wsgi --log-file -
