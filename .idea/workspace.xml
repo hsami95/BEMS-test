@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a59a8ead-969c-46af-b1f3-70d52bf2e309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/BEMS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMS/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/BEMShop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/BEMShop/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,29 +12,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/BEMS_test$manage.coverage" NAME="manage Coverage Results" MODIFIED="1552574504557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BEMS_test$manage.coverage" NAME="manage Coverage Results" MODIFIED="1552580838228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="118" column="40" lean-forward="true" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+            <state relative-caret-position="461">
+              <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/BEMShop/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+            <state relative-caret-position="415">
+              <caret line="674" column="58" selection-start-line="674" selection-start-column="58" selection-end-line="674" selection-end-column="58" />
               <folding>
+                <element signature="e#1990#2372#0#DjangoTemplate" />
                 <element signature="e#10826#11308#0#DjangoTemplate" />
+                <element signature="e#11346#12320#0#DjangoTemplate" />
                 <element signature="e#19911#28006#0#DjangoTemplate" />
                 <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -85,8 +88,8 @@
         <option value="$PROJECT_DIR$/BEMS/wsgi.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/BEMShop/templates/BEMShop/index.html" />
-        <option value="$PROJECT_DIR$/templates/BEMShop/index.html" />
         <option value="$PROJECT_DIR$/BEMS/settings.py" />
+        <option value="$PROJECT_DIR$/templates/BEMShop/index.html" />
       </list>
     </option>
   </component>
@@ -246,12 +249,12 @@
       <workItem from="1548774980909" duration="1317000" />
       <workItem from="1548961239595" duration="8887000" />
       <workItem from="1551973950046" duration="1328000" />
-      <workItem from="1552492113689" duration="7608000" />
+      <workItem from="1552492113689" duration="11303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26605000" />
+    <option name="totallyTimeSpent" value="30300000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,24 +391,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/BEMShop/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        <state relative-caret-position="415">
+          <caret line="674" column="58" selection-start-line="674" selection-start-column="58" selection-end-line="674" selection-end-column="58" />
           <folding>
+            <element signature="e#1990#2372#0#DjangoTemplate" />
             <element signature="e#10826#11308#0#DjangoTemplate" />
+            <element signature="e#11346#12320#0#DjangoTemplate" />
             <element signature="e#19911#28006#0#DjangoTemplate" />
             <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="118" column="40" lean-forward="true" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
         </state>
       </provider>
     </entry>
