@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a59a8ead-969c-46af-b1f3-70d52bf2e309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/BEMS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMS/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/BEMShop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/BEMShop/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+            <state relative-caret-position="444">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/BEMShop/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="674" column="58" selection-start-line="674" selection-start-column="58" selection-end-line="674" selection-end-column="58" />
+            <state relative-caret-position="228">
+              <caret line="663" column="41" lean-forward="true" selection-start-line="663" selection-start-column="41" selection-end-line="663" selection-end-column="41" />
               <folding>
                 <element signature="e#1990#2372#0#DjangoTemplate" />
                 <element signature="e#10826#11308#0#DjangoTemplate" />
@@ -62,8 +61,8 @@
       <find>bizpage</find>
       <find>phone numb</find>
       <find>our clie</find>
-      <find>contact us</find>
       <find>call to action</find>
+      <find>contact us</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -88,8 +87,8 @@
         <option value="$PROJECT_DIR$/BEMS/wsgi.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/BEMShop/templates/BEMShop/index.html" />
-        <option value="$PROJECT_DIR$/BEMS/settings.py" />
         <option value="$PROJECT_DIR$/templates/BEMShop/index.html" />
+        <option value="$PROJECT_DIR$/BEMS/settings.py" />
       </list>
     </option>
   </component>
@@ -249,12 +248,12 @@
       <workItem from="1548774980909" duration="1317000" />
       <workItem from="1548961239595" duration="8887000" />
       <workItem from="1551973950046" duration="1328000" />
-      <workItem from="1552492113689" duration="11303000" />
+      <workItem from="1552492113689" duration="11922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30300000" />
+    <option name="totallyTimeSpent" value="30919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +268,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -391,17 +390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/BEMShop/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="674" column="58" selection-start-line="674" selection-start-column="58" selection-end-line="674" selection-end-column="58" />
+        <state relative-caret-position="228">
+          <caret line="663" column="41" lean-forward="true" selection-start-line="663" selection-start-column="41" selection-end-line="663" selection-end-column="41" />
           <folding>
             <element signature="e#1990#2372#0#DjangoTemplate" />
             <element signature="e#10826#11308#0#DjangoTemplate" />
@@ -411,6 +403,13 @@
             <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
