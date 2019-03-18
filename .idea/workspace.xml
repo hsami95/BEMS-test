@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59a8ead-969c-46af-b1f3-70d52bf2e309" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BEMShop/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEMShop/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEMShop/migrations/0002_auto_20190316_1232.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEMShop/migrations/0003_auto_20190316_1234.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEMShop/migrations/0004_auto_20190316_1723.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEMShop/migrations/0005_email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEMShop/migrations/0006_products.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEMShop/migrations/0007_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEMShop/migrations/0008_auto_20190318_2216.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BEMShop/migrations/0009_auto_20190318_2238.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BEMS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMS/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMS/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/templates/BEMShop/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/BEMShop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/BEMShop/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+            <state relative-caret-position="217">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
             </state>
           </provider>
         </entry>
@@ -119,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BEMShop/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -218,12 +198,12 @@
         <option value="$PROJECT_DIR$/BEMS/urls.py" />
         <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/models.py" />
-        <option value="$PROJECT_DIR$/BEMS/settings.py" />
         <option value="$PROJECT_DIR$/BEMShop/admin.py" />
         <option value="$PROJECT_DIR$/BEMShop/models.py" />
         <option value="$PROJECT_DIR$/BEMShop/forms.py" />
         <option value="$PROJECT_DIR$/templates/BEMShop/index.html" />
         <option value="$PROJECT_DIR$/BEMShop/views.py" />
+        <option value="$PROJECT_DIR$/BEMS/settings.py" />
       </list>
     </option>
   </component>
@@ -253,6 +233,11 @@
             <path>
               <item name="BEMS test" type="b2602c69:ProjectViewProjectNode" />
               <item name="BEMS test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BEMS test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BEMS test" type="462c0819:PsiDirectoryNode" />
+              <item name="BEMS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BEMS test" type="b2602c69:ProjectViewProjectNode" />
@@ -385,12 +370,12 @@
       <workItem from="1548961239595" duration="8887000" />
       <workItem from="1551973950046" duration="1328000" />
       <workItem from="1552492113689" duration="38449000" />
-      <workItem from="1552767698221" duration="14877000" />
+      <workItem from="1552767698221" duration="15486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72323000" />
+    <option name="totallyTimeSpent" value="72932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -700,6 +678,13 @@
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
         </state>
       </provider>
     </entry>
