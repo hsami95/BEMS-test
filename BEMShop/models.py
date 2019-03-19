@@ -2,8 +2,8 @@ from django.db import models
 
 
 class Services(models.Model):
-    service_title = models.CharField(max_length=300)
-    service_description = models.TextField()
+    title = models.CharField(max_length=300)
+    description = models.TextField()
 
 
 class Email(models.Model):
@@ -13,8 +13,8 @@ class Email(models.Model):
 class Products(models.Model):
     product_image = models.ImageField(upload_to='uploaded_media',
                                       default='uploaded_media/None/No-image.jpg', null=True, blank=True)
-    product_title = models.CharField(max_length=100)
-    product_price = models.CharField(max_length=10)
+    title = models.CharField(max_length=100)
+    price = models.CharField(max_length=10)
 
 
 class Message(models.Model):
