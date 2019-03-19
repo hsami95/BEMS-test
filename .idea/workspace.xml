@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59a8ead-969c-46af-b1f3-70d52bf2e309" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BEMS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMS/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/BEMShop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/BEMShop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMShop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,19 +52,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
+            <state relative-caret-position="73">
+              <caret line="114" column="15" lean-forward="true" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BEMShop/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -194,11 +187,11 @@
         <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/BEMShop/admin.py" />
-        <option value="$PROJECT_DIR$/BEMShop/models.py" />
         <option value="$PROJECT_DIR$/BEMShop/forms.py" />
         <option value="$PROJECT_DIR$/BEMShop/views.py" />
-        <option value="$PROJECT_DIR$/BEMS/settings.py" />
         <option value="$PROJECT_DIR$/templates/BEMShop/index.html" />
+        <option value="$PROJECT_DIR$/BEMS/settings.py" />
+        <option value="$PROJECT_DIR$/BEMShop/models.py" />
       </list>
     </option>
   </component>
@@ -228,16 +221,6 @@
             <path>
               <item name="BEMS test" type="b2602c69:ProjectViewProjectNode" />
               <item name="BEMS test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BEMS test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BEMS test" type="462c0819:PsiDirectoryNode" />
-              <item name="BEMS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BEMS test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BEMS test" type="462c0819:PsiDirectoryNode" />
-              <item name="BEMShop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,12 +348,12 @@
       <workItem from="1548961239595" duration="8887000" />
       <workItem from="1551973950046" duration="1328000" />
       <workItem from="1552492113689" duration="38449000" />
-      <workItem from="1552767698221" duration="18697000" />
+      <workItem from="1552767698221" duration="18952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76143000" />
+    <option name="totallyTimeSpent" value="76398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/BEMShop/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -677,12 +653,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BEMShop/models.py">
+    <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="73">
+          <caret line="114" column="15" lean-forward="true" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BEMShop/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

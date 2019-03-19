@@ -1,5 +1,4 @@
 from django.db import models
-#from django.contrib.sites.models import Site
 
 
 class Services(models.Model):
@@ -9,7 +8,6 @@ class Services(models.Model):
 
 class Email(models.Model):
     email = models.EmailField()
-    #site = models.OneToOneField(Site)
 
 
 class Products(models.Model):
@@ -24,9 +22,3 @@ class Message(models.Model):
     email = models.EmailField()
     subject = models.CharField(max_length=200, default='Please enter your subject here...')
     message = models.TextField(max_length=500, default='Please enter your message here...')
-
-
-
-
-
-
