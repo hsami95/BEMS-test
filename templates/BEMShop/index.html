@@ -256,20 +256,13 @@
 
       </div>
     </section><!-- #services -->
-
-    <!--==========================
-      Call To Action Section
-    ============================-->
-   {% comment %} <section id="call-to-action" class="wow fadeIn">
+ {% comment %} <section id="call-to-action" class="wow fadeIn">
       <div class="container text-center">
         <h3>Call Us</h3>
         <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <a class="cta-btn" href="#">Call To Action</a>
       </div>
     </section><!-- #call-to-action -->{% endcomment %}
-
-  
-
     <!--==========================
       Facts Section
     ============================-->
@@ -306,10 +299,6 @@
   			</div>
       </div>
     </section><!-- #facts -->{% endcomment %}
-
-    <!--==========================
-      Portfolio Section
-    ============================-->
     <section id="portfolio"  class="section-bg" >
       <div class="container">
 
@@ -329,8 +318,8 @@
         </div>
 
         <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+{% for ser in services_list %}
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
                 <img src="{% static 'img/portfolio/app1.jpg' %}" class="img-fluid" alt="">
@@ -344,6 +333,10 @@
               </div>
             </div>
           </div>
+
+
+{% endfor %}
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
