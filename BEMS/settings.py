@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'BEMShop.apps.BemshopConfig',
+#    'django.contrib.sites',
 ]
 
 MIDDLEWARE = [
@@ -121,6 +122,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# import django_heroku
-# Activate Django-Heroku.
-# django_heroku.settings(locals())
+
+import django_heroku
+django_heroku.settings(locals())

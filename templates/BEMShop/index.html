@@ -30,7 +30,7 @@
   <link href="{% static 'css/style.css' %}" rel="stylesheet">
 
 </head>
-
+{% block body %}
 <body>
 
   <!--==========================
@@ -50,8 +50,8 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
+          <li><a href="#portfolio">Products</a></li>
+          {% comment %}<li><a href="#team">Team</a></li>
           <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -59,7 +59,7 @@
               <li><a href="#">Drop Down 4</a></li>
               <li><a href="#">Drop Down 5</a></li>
             </ul>
-          </li>
+          </li>{% endcomment %}
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -127,20 +127,20 @@
 
           <div class="col-lg-4 box">
 
-            <h4 class="title"><a href="">Cell Phone Repairing</a></h4>
-            <p class="description">We provide services for all type of damaged or broken phones</p>
+            <h4 class="title"><a href="">Repairing Services</a></h4>
+            <p class="description">We do repairs for cell phones, tablets, laptops and Gaming consoles all type of damaged or broken phones</p>
           </div>
 
           <div class="col-lg-4 box box-bg">
 
-            <h4 class="title"><a href="">New cell phones</a></h4>
-            <p class="description">New & latest model cell phones are available and market competative price</p>
+            <h4 class="title"><a href="">Unlocked Phones</a></h4>
+            <p class="description">We sell unlocked brand new and certified pre-owned phones of all the famous brands at reasonable prices</p>
           </div>
 
           <div class="col-lg-4 box">
 
-            <h4 class="title"><a href="">Packages</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <h4 class="title"><a href="">Pre-Paid Plans</a></h4>
+            <p class="description">We can activate prepaid services here. Below are carriers we have here: Metro by T-Mobile, AT&T Pre-paid, Simple mobile, Ultra Mobile, Lyca Mobile, Page Plus and many more. </p>
           </div>
 
         </div>
@@ -155,7 +155,7 @@
 
         <header class="section-header">
           <h3>About Us</h3>
-          <p>Our aim is to offer outstanding services to conduct repair works or troubleshoot your smart phones. For us, the repair work is not just about finding the fault and fixing it, it is about quality parts that are made to last long. We make sure that each of the parts used for repairing are brand new and of the highest quality. Click Here to book your repair now</p>
+          <p>Our aim is to offer outstanding services to conduct repair works or troubleshoot your smart phones. For us, the repair work is not just about finding the fault and fixing it, it is about quality parts that are made to last long. We make sure that each of the parts used for repairing are brand new and of the highest quality.(add new phones)</p>
         </header>
 
         <div class="row about-cols">
@@ -168,7 +168,7 @@
               </div>
               <h2 class="title"><a href="#">No Fix, No Fee</a></h2>
               <p>
-                We won't ask ever for upfront payment. You'll only pay once your device is fixed!</p>
+               There do not charge diagnostic fee. You'll pay only once your device is fixed!</p>
             </div>
           </div>
 
@@ -178,9 +178,9 @@
                 <img src="{% static 'img/about-plan.jpg' %}" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">48 Hours Repair*</a></h2>
+              <h2 class="title"><a href="#">Same-Day Repair*</a></h2>
               <p>
-                Flat two day repair for Touch/LCD replacement on selected models</p>
+                Most of our repairs are done while you wait in the store or on the same day</p>
             </div>
           </div>
 
@@ -209,64 +209,64 @@
 
         <header class="section-header wow fadeInUp">
           <h3>Services</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+
         </header>
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+
+
+{% for ser in services_list %}
+
+            <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+            <h4 class="title"><a href="">{{ ser.title }}</a></h4>
+            <p class="description">{{ ser.description }}</p>
+                     </div>
+
+{% endfor %}
+
+
+       {% comment %}   <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <h4 class="title"><a href="">Betray / Charging-port replacement</a></h4>
             <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <h4 class="title"><a href="">Device Unlocking</a></h4>
             <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <h4 class="title"><a href="">Water Damage Repair</a></h4>
             <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <h4 class="title"><a href="">IPad / Tablet Screens</a></h4>
             <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="icon"><i class="ion-ios-people-outline"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <h4 class="title"><a href="">Mother-Board truble shooting</a></h4>
             <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
           </div>
-
+{% endcomment %}
         </div>
 
       </div>
     </section><!-- #services -->
-
-    <!--==========================
-      Call To Action Section
-    ============================-->
-    <section id="call-to-action" class="wow fadeIn">
+ {% comment %} <section id="call-to-action" class="wow fadeIn">
       <div class="container text-center">
         <h3>Call Us</h3>
         <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <a class="cta-btn" href="#">Call To Action</a>
       </div>
-    </section><!-- #call-to-action -->
-
-  
-
+    </section><!-- #call-to-action -->{% endcomment %}
     <!--==========================
       Facts Section
     ============================-->
-    <section id="facts"  class="wow fadeIn">
+    {% comment %}<section id="facts"  class="wow fadeIn">
       <div class="container">
 
         <header class="section-header">
@@ -297,22 +297,13 @@
   				</div>
 
   			</div>
-
-        <div class="facts-img">
-          <img src="{% static 'img/facts-img.png' %}" alt="" class="img-fluid">
-        </div>
-
       </div>
-    </section><!-- #facts -->
-
-    <!--==========================
-      Portfolio Section
-    ============================-->
+    </section><!-- #facts -->{% endcomment %}
     <section id="portfolio"  class="section-bg" >
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
+          <h3 class="section-title">Our Products</h3>
         </header>
 
         <div class="row">
@@ -327,8 +318,8 @@
         </div>
 
         <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+{% for ser in services_list %}
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
                 <img src="{% static 'img/portfolio/app1.jpg' %}" class="img-fluid" alt="">
@@ -342,6 +333,10 @@
               </div>
             </div>
           </div>
+
+
+{% endfor %}
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
@@ -468,7 +463,7 @@
       </div>
     </section><!-- #portfolio -->
 
-    <!--==========================
+   {% comment %} <!--==========================
       Clients Section
     ============================-->
     <section id="clients" class="wow fadeInUp">
@@ -651,7 +646,7 @@
         </div>
 
       </div>
-    </section><!-- #team -->
+    </section><!-- #team -->{% endcomment %}
 
     <!--==========================
       Contact Section
@@ -661,7 +656,6 @@
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
 
         <div class="row contact-info">
@@ -678,7 +672,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <p><a href="tel:+155895548855">+1 732 963 9691</a></p>
             </div>
           </div>
 
@@ -686,7 +680,7 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:info@example.com">cellphonecare786@gmail.com</a></p>
             </div>
           </div>
 
@@ -695,26 +689,28 @@
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form action="" method="post" role="form" class="contactForm">{% csrf_token %}
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                {{ form.name }}
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  {{ form.email }}
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                {{ form.subject }}
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                {{ form.message }}
+{#              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>#}
               <div class="validation"></div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+              <input type="submit" value="Submit">
+{#            <div class="text-center"><button type="submit">Send Message</button></div>#}
           </form>
         </div>
 
@@ -732,8 +728,8 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>BizPage</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <h3>BEMS</h3>
+            <p>We are in mobile repairing business since a long time now. Cell phone is a very personal device and you want it to be treated by the best. Trust us once and you will never have to worry about finding a good mobile technician</p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
@@ -742,24 +738,24 @@
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+
+
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h4>Contact</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
+              Broadway Xpress Services <br>
+              593 broadway long branch NJ 07740<br>
               United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong> +1 732 963 9691<br>
+              <strong>Email:</strong> cellphonecare786@gmail.com<br>
             </p>
 
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.facebook.com/cellphonecare786/" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
@@ -774,12 +770,7 @@
     <div class="container">
      
       <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
-        -->
+
         BootstrapMade
       </div>
     </div>
@@ -810,4 +801,5 @@
   <script src="{% static 'js/main.js' %}"></script>
 
 </body>
+{% endblock %}
 </html>
