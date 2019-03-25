@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'BEMShop',
-#    'django.contrib.sites',
+    'django.contrib.sites',
+    'BEMShop.apps.BemshopConfig',
+
 ]
 
 MIDDLEWARE = [
