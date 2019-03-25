@@ -6,5 +6,5 @@ from .models import Services
 def index(request):
 
     services_list = Services.objects.all()
-    context = {'services_list': services_list}
+    context = {'services_list': services_list, 'form': MessageForm()}
     return render(request, 'BEMShop/index.html', context)

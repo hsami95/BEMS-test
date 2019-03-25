@@ -686,31 +686,31 @@
 
         </div>
 
-{#        <div class="form">#}
-{#          <div id="sendmessage">Your message has been sent. Thank you!</div>#}
-{#          <div id="errormessage"></div>#}
-{#          <form action="" method="post" role="form" class="contactForm">{% csrf_token %}#}
-{#            <div class="form-row">#}
-{#              <div class="form-group col-md-6">#}
-{#                {{ form.name }}#}
-{#                <div class="validation"></div>#}
-{#              </div>#}
-{#              <div class="form-group col-md-6">#}
-{#                  {{ form.email }}#}
-{#                <div class="validation"></div>#}
-{#              </div>#}
-{#            </div>#}
-{#            <div class="form-group">#}
-{#                {{ form.subject }}#}
-{#              <div class="validation"></div>#}
-{#            </div>#}
-{#            <div class="form-group">#}
-{#                {{ form.message }}#}
-{#              <div class="validation"></div>#}
-{#            </div>#}
-{#              <input type="submit" value="Submit">#}
-{#          </form>#}
-{#        </div>#}
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">{% csrf_token %}
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                {{ form.name }}
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                  {{ form.email }}
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+                {{ form.subject }}
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+                {{ form.message }}
+              <div class="validation"></div>
+            </div>
+              <input type="submit" value="Submit">
+          </form>
+        </div>
 
       </div>
     </section><!-- #contact -->
