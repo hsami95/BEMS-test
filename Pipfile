@@ -10,6 +10,8 @@ django = "*"
 gunicorn = "*"
 django-heroku = "*"
 pillow = "*"
+psycopg2 = "*"
+dj-config-url = "*"
 
 
 [requires]
