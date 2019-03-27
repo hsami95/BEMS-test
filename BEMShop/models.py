@@ -11,14 +11,20 @@ class Email(models.Model):
 
 
 class Products(models.Model):
+    category_choices = (
+        ('Android', 'Android'),
+        ('Iphone', 'Iphone'),
+        ('Accessories', 'Accessories'),
+    )
     product_image = models.ImageField(upload_to='uploaded_media',
                                       default='uploaded_media/None/No-image.jpg', null=True, blank=True)
     title = models.CharField(max_length=100)
-    price = models.CharField(max_length=10)
+    price = models.CharField(max_length=100)
+    category = models.CharField(max_length=100, choices=category_choices)
 
 
 class Message(models.Model):
-    name = models.CharField(max_length=100, default='Please enter your name here...')
+    name = models.CharField(max_length=100)
     email = models.EmailField()
-    subject = models.CharField(max_length=200, default='Please enter your subject here...')
-    message = models.TextField(max_length=500, default='Please enter your message here...')
+    subject = models.CharField(max_length=200)
+    message = models.TextField(max_length=500)
