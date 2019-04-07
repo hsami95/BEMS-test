@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59a8ead-969c-46af-b1f3-70d52bf2e309" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BEMS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMS/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0002_auto_20190316_1232.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0003_auto_20190316_1234.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0004_auto_20190316_1723.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0005_email.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0006_products.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0007_message.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0008_auto_20190318_2216.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0009_auto_20190318_2238.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0010_auto_20190319_2311.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0002_auto_20190316_1232.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0002_auto_20190316_1232.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0003_auto_20190316_1234.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0003_auto_20190316_1234.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0004_auto_20190316_1723.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0004_auto_20190316_1723.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0005_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0005_email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0006_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0006_products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0007_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0007_message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0008_auto_20190318_2216.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0008_auto_20190318_2216.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0009_auto_20190318_2238.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0009_auto_20190318_2238.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0010_auto_20190319_2311.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0010_auto_20190319_2311.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/BEMShop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/BEMShop/index.html" afterDir="false" />
     </list>
@@ -63,7 +63,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="283">
               <caret line="124" selection-start-line="124" selection-end-line="124" />
             </state>
           </provider>
@@ -218,7 +218,7 @@
     <other-services-enabled>false</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1277" />
@@ -379,12 +379,12 @@
       <workItem from="1548961239595" duration="8887000" />
       <workItem from="1551973950046" duration="1328000" />
       <workItem from="1552492113689" duration="38449000" />
-      <workItem from="1552767698221" duration="21726000" />
+      <workItem from="1552767698221" duration="22326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79172000" />
+    <option name="totallyTimeSpent" value="79772000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,7 +396,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
@@ -696,7 +696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="283">
           <caret line="124" selection-start-line="124" selection-end-line="124" />
         </state>
       </provider>
