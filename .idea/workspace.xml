@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a59a8ead-969c-46af-b1f3-70d52bf2e309" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0002_auto_20190316_1232.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0002_auto_20190316_1232.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0003_auto_20190316_1234.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0003_auto_20190316_1234.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0004_auto_20190316_1723.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0004_auto_20190316_1723.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0005_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0005_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0006_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0006_products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0007_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0007_message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0008_auto_20190318_2216.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0008_auto_20190318_2216.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0009_auto_20190318_2238.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0009_auto_20190318_2238.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BEMShop/migrations/0010_auto_20190319_2311.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMShop/temp migrations/0010_auto_20190319_2311.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/BEMShop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/BEMShop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BEMS/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BEMS/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/BEMS_test$manage.coverage" NAME="manage Coverage Results" MODIFIED="1553021545420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BEMS_test$manage.coverage" NAME="manage Coverage Results" MODIFIED="1554742686328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -46,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/BEMShop/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
+            <state relative-caret-position="5678">
               <caret line="334" column="16" selection-start-line="334" selection-start-column="16" selection-end-line="334" selection-end-column="16" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
@@ -63,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="124" selection-start-line="124" selection-end-line="124" />
+            <state relative-caret-position="100">
+              <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -72,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BEMShop/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
+            <state relative-caret-position="187">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -93,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BEMShop/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="255">
               <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -105,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BEMShop/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="68">
               <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -117,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/forms/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="4284">
               <caret line="266" column="47" selection-start-line="266" selection-start-column="47" selection-end-line="266" selection-end-column="47" />
             </state>
           </provider>
@@ -126,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/sites.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="1428">
               <caret line="101" selection-start-line="101" selection-end-line="101" />
             </state>
           </provider>
@@ -135,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="187">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
@@ -218,7 +208,7 @@
     <other-services-enabled>false</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1277" />
@@ -379,12 +369,13 @@
       <workItem from="1548961239595" duration="8887000" />
       <workItem from="1551973950046" duration="1328000" />
       <workItem from="1552492113689" duration="38449000" />
-      <workItem from="1552767698221" duration="22326000" />
+      <workItem from="1552767698221" duration="22928000" />
+      <workItem from="1554741972389" duration="822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79772000" />
+    <option name="totallyTimeSpent" value="81196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,15 +387,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" weight="0.24962178" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -608,20 +598,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views.py">
+    <entry file="file://$PROJECT_DIR$/models.py" />
+    <entry file="file://$PROJECT_DIR$/BEMShop/migrations/0010_auto_20190319_2311.py" />
+    <entry file="file://$PROJECT_DIR$/templates/BEMShop/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="5678">
+          <caret line="334" column="16" selection-start-line="334" selection-start-column="16" selection-end-line="334" selection-end-column="16" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="e#8573#10598#0#DjangoTemplate" />
+            <element signature="e#10646#11128#0#DjangoTemplate" />
+            <element signature="e#11348#11434#0#HTML" />
+            <element signature="e#11439#12413#0#DjangoTemplate" />
+            <element signature="e#19869#27964#0#DjangoTemplate" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/sites.py">
+    <entry file="file://$PROJECT_DIR$/BEMShop/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -635,16 +632,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/forms/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="266" column="47" selection-start-line="266" selection-start-column="47" selection-end-line="266" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BEMShop/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="255">
           <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -652,16 +642,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BEMShop/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="68">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -669,35 +652,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/BEMShop/index.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/forms/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="334" column="16" selection-start-line="334" selection-start-column="16" selection-end-line="334" selection-end-column="16" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="e#8573#10598#0#DjangoTemplate" />
-            <element signature="e#10646#11128#0#DjangoTemplate" />
-            <element signature="e#11348#11434#0#HTML" />
-            <element signature="e#11439#12413#0#DjangoTemplate" />
-            <element signature="e#19869#27964#0#DjangoTemplate" />
-          </folding>
+        <state relative-caret-position="4284">
+          <caret line="266" column="47" selection-start-line="266" selection-start-column="47" selection-end-line="266" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BEMShop/migrations/0010_auto_20190319_2311.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BEMShop/models.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/contrib/admin/sites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="1428">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BEMS/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="100">
+          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
         </state>
       </provider>
     </entry>
