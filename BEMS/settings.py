@@ -37,10 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'django.contrib.sites',
     'BEMShop.apps.BemshopConfig',
-#    'django.contrib.sites',
-]
 
+]
+# SITE_ID = 2
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -83,6 +84,12 @@ DATABASES = {
     }
 }
 
+# DATABASE_URL = 'postgres://tvubmxuaunzvfl:nPz9XaNTJZinozDa4LzSJWU2o0@ec2-23-21-71-9.compute-1.amazonaws.com:5432/d67bfm9t83a0fk'
+# import dj_database_url
+# DATABASES = {'default': dj_database_url.config(
+#     default='postgres://tvubmxuaunzvfl:nPz9XaNTJZinozDa4LzSJWU2o0@ec2-23-21-71-9.compute-1.amazonaws.com:5432/d67bfm9t83a0fk',
+#     engine='django.db.backends.postgresql_psycopg2'
+#     )}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -122,5 +129,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploaded_media')
 import django_heroku
 django_heroku.settings(locals())
