@@ -96,7 +96,7 @@
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2>Visit us at</h2>
-                                <p>Broadway Xpress Services
+                                <p>
 593 broadway long branch NJ 07740
 United States </p>
                                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
@@ -231,7 +231,7 @@ United States </p>
 
                         <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
                             <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-                            <h4 class="title"><a href="">{{ service.title }}</a></h4>
+                            <h4 class="title">{{ service.title }}</h4>
                             <p class="description">{{ service.description }}</p>
                         </div>
 
@@ -363,11 +363,10 @@ United States </p>
                             <div class="portfolio-wrap">
                                 <figure>
                                     <img src="{{ product.product_image.url }}" class="img-fluid" alt="">
-                                    <a href="{% static 'img/portfolio/web3.jpg' %}" class="link-preview"
+                                    <a href="{{ product.product_image.url }}" class="link-preview"
                                        data-lightbox="portfolio" data-title="Web 3" title="Preview"><i
                                             class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i
-                                            class="ion ion-android-open"></i></a>
+
                                 </figure>
 
                                 <div class="portfolio-info">
